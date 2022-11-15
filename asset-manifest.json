@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/find-the-country/static/css/main.f691ed4d.css",
-    "main.js": "/find-the-country/static/js/main.0e7cc580.js",
+    "main.js": "/find-the-country/static/js/main.e1c68986.js",
     "static/media/map.jpg": "/find-the-country/static/media/map.965c8d6bbdbf01bb4058.jpg",
     "index.html": "/find-the-country/index.html",
     "main.f691ed4d.css.map": "/find-the-country/static/css/main.f691ed4d.css.map",
-    "main.0e7cc580.js.map": "/find-the-country/static/js/main.0e7cc580.js.map"
+    "main.e1c68986.js.map": "/find-the-country/static/js/main.e1c68986.js.map"
   },
   "entrypoints": [
     "static/css/main.f691ed4d.css",
-    "static/js/main.0e7cc580.js"
+    "static/js/main.e1c68986.js"
   ]
 }
