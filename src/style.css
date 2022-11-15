@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(220, 219, 225);
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+a{
+    text-decoration: underline dotted black 1.5px;
+}
+.authContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.register, .login{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+.register div, .login div{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.register form, .login form{
+    display: flex;
+    flex-direction: column;
+}
+.register form *, .login form *{
+    margin-bottom: 5px;
+}
+.register form input[type='submit'], .login form input[type='submit']{
+    margin-top: 20px;
+    color: white;
+    height: 30px;
+    background: linear-gradient(to left, #5e25c2, #d12190);
+    border: none;
+    width: 250px;
+}
+.register form input[type='submit']:hover, .login form input[type='submit']:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.336) 2px 2px 1px 1px;
+}
+.register form input[type='submit']:active, .login form input[type='submit']:active{
+    background: linear-gradient(to left, #521eac, #aa1774)
+}
+.result.hidden, .overlay.hidden, .register.hidden, .login.hidden{
+    display: none;
+}
+.overlay{
+    display: block;
+    position: fixed;
+    width: 100vmax;
+    height: 100vmin;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    z-index: 2;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 3;
+    align-items: center;
+}
+.result button{
+    margin-top: 20px;
+    color: white;
+    height: 30px;
+    background: linear-gradient(to left, #5e25c2, #d12190);
+    border: none;
+    width: 250px;
+}
+.result button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.336) 2px 2px 1px 1px;
+}
+.result button:active{
+    background: linear-gradient(to left, #521eac, #aa1774)
+}
+.App section:first-of-type{
+    display: flex;
+    flex-direction: column;
+}
+.App section:first-of-type h1:first-of-type{
+    margin-left: 1em;
+}
+.App section:first-of-type div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.App section:first-of-type h1:last-of-type{
+    align-items: center;
+}
+.game-time{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.game-map-section{
+    height: max-content;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+.game-map-section img{
+    width: 1000px;
+    height: 590px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
